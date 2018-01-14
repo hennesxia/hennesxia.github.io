@@ -2,8 +2,18 @@
 	max-width:100%;
 }
 
-.description {
-  background-image: url("../img/pattern.jpg");
+.description1 {
+  background: #333333;
+  border-color: #E2E2E2;
+}
+
+.description2 {
+  background-image: url("../img/bg2.jpg");
+  background-repeat: repeat-x;
+}
+
+.description3 {
+  background-image: url("../img/bg3.jpg");
   background-repeat: repeat-x;
 }
 
@@ -14,7 +24,8 @@
 }
 
 .navbar {
-  background: #e16879;
+  background: #333333;
+  border-color: snow;
 }
 
 .btn {
@@ -22,14 +33,48 @@
 }
 
 .btn-primary {
-  background: #e16879;
-  border-color: #e16879;
+  background: #E86340;
+  border-color: #E86340;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background: #e05164;
-  border-color: #e05164;
+  background: #F3B1BD;
+  border-color: #F3B1BD;
+}
+
+.vdo-width-fix{
+  max-width: 80%
+}
+
+.joti-one{
+  font-family: 'Joti One', cursive;
+}
+
+.macondo{
+  font-family: 'Macondo', cursive;
+}
+
+.ranga{
+  font-family: 'Ranga', cursive;
+}
+
+.indie-flower{
+  font-family: 'Indie Flower', cursive;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 53.8%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
 }
